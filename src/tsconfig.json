@@ -1,0 +1,72 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": false,
+    "strict": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "input-page/*": [
+        "app/input-page/*"
+      ],
+      "shared/*": [
+        "app/shared/*"
+      ],
+      "services/*": [
+        "app/services/*"
+      ],
+      "utilities/*": [
+        "app/utilities/*"
+      ],
+      "user/*": [
+        "app/user/*"
+      ],
+      "tracking-reporting/*": [
+        "app/tracking-reporting/*"
+      ],
+      "contacts-activities/*": [
+        "app/contacts-activities/*"
+      ],
+      "store/*": [
+        "app/store/*"
+      ],
+      "model/*": [
+        "app/model/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": false,
+    "strictInputAccessModifiers": false,
+    "strictTemplates": false
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "src/tsconfig.app.json"
+    },
+    {
+      "path": "src/tsconfig.spec.json"
+    }
+  ]
+}
